@@ -28,6 +28,49 @@
   color: #61dafb;
 }
 
+.traffict-light{
+  background-color: black;
+  padding: 10px;
+  width: 130px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+
+.light{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.light.red{
+  background-color: red;
+}
+
+.light.yellow{
+  background-color: yellow;
+}
+
+.light.green{
+  background-color: green;
+}
+
+.red.glow{
+  box-shadow: 0px 0px 15px 10px red;
+}
+
+.yellow.glow{
+  box-shadow: 0px 0px 15px 10px yellow;
+}
+
+.green.glow{
+  box-shadow: 0px 0px 15px 10px green;
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
